@@ -75,7 +75,10 @@ public class main extends JavaPlugin
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
 	{	
 		// enchant item in player's hand using godEnchant()
-		if(label.equalsIgnoreCase("godenchant"))
+		if(label.equalsIgnoreCase("godenchant") ||
+		   label.equalsIgnoreCase("godench") ||
+		   label.equalsIgnoreCase("gench") ||
+		   label.equalsIgnoreCase("ge"))
 		{
 			Player player = (Player) sender;
 			

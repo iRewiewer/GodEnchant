@@ -5,6 +5,7 @@ description: Enchant and item to a godly tier.
 author: iRewiewer
 api-version: 1.16
 commands:
-    godenchant:
-        usage: /godenchant [with item in hand]
+    godench:
+        usage: /godench [with item in hand]
         description: Enchant the item in your hand with maxed enchants!
+        aliases: [godenchant, gench, ge]
